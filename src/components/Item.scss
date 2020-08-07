@@ -1,0 +1,30 @@
+// 변수 사용하기
+$red: #fa5252;
+$orange: #fd7e14;
+$yellow: #fcc419;
+$green: #40c057;
+$blue: #339af0;
+$indigo: #5c7cfa;
+$violet: #7950f2;
+
+.ItemComponent{
+  width: 130px;
+  height: 200px;
+  border: 5px solid;
+  .Temp{
+    &.ImageInfo{
+      width: 100px;
+      height: 100px;
+      
+    }
+    &.ItemInfo {
+      display: flex;
+      margin-top: 20px;
+      .ItemInfoElem{
+        // background-color: red;
+        margin: 10px;
+        border: 1px solid;
+      }
+    }
+  }
+}
