@@ -3,7 +3,7 @@ import ShopItemList from '../components/ShopItemList';
 
 function ShopItemListContainer(){
     return(
-        <ShopItemList/>
+        <ShopItemList />
     );
 }
 
